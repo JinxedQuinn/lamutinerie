@@ -3,11 +3,11 @@ import Image from 'next/image';
 
 export default function imagetexte() {
     return (
-        <div className='h-full bg-white p-14 relative'>
+        <div className='h-full bg-white p-12 relative'>
             <div className='text-8xl font-bold absolute top-0 w-full text-red-500'>Charte</div>
             <Image
                 src="/BanderoleMutinerie.png"
-                alt="Photo d'un bras levé pendant une soirée"
+                alt="Photo d'une banderole prise à la Mutinerie"
                 width={1920}
                 height={1080}
             />
@@ -17,44 +17,40 @@ export default function imagetexte() {
             <p className='mt-5'>
                 La Mutinerie est un espace de lutte collective contre toutes les discriminations liées au sexe, au genre et à la sexualité, au fait d'être racisé.e ou pas, à l'âge, à la santé, à la validité (physique et mentale), au statut sérologique, à l'origine, à la religion, à la classe, aux normes de beauté et de poids, à l'apparence et plus largement à ce que tu fais dans la vie (on pense aux travailleur.ses du sexe, aux chômeur.ses et aux genTEs au RSA).
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-14">
-
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="p-4">
-                    <h2 className="text-7xl font-bold text-center">
+                    <h2 className="text-5xl font-bold text-center sm:text-xl text-red-500">
                         Solidarité
                     </h2>
-                    <p className="text-lg">
+                    <p className="text-base">
                         Si on est témoin de propos ou de gestes qui craignent, on est tou.te.s solidaires.
-                        <br></br>
-                        N'hésite pas à venir nous voir (derrière le bar ou à la porte) si tu as été victime ou témoin d'une situation qui t'a mis.e mal.à l'aise.
+                        <br />
+                        N'hésite pas à venir nous voir (derrière le bar ou à la porte) si tu as été victime ou témoin d'une situation qui t'a mis.e mal à l'aise.
                     </p>
                 </div>
-
                 <div className="p-4">
-                    <h2 className="text-7xl font-bold text-center">
+                    <h2 className="text-5xl font-bold text-center sm:text-xl text-red-500">
                         Non-mixité
                     </h2>
                     <p className="text-lg">
                         Certains évènements sont non-mixtes. Si c'est le cas, cette non-mixité a été réfléchie par les organisateur.rices, merci de la respecter.
                     </p>
                 </div>
-
                 <div className="p-4">
-                    <h2 className="text-7xl font-bold text-center">
+                    <h2 className="text-5xl font-bold text-center sm:text-xl text-red-500">
                         Autodétermination
                     </h2>
                     <p className="text-lg">
-                        A la Mutinerie, on respecte la manière dont chacun.e se définit en termes de genre, d'orientation sexuelle, etc. Avant de poser une question, demande toi si elle ne risque pas d'être intrusive pour l'autre. "T'es un garçon ou une fille ?" ou "T'es de quelle origine ?" c'est comme dire "Salut, est-ce que t'as tes papiers ?"
+                        A la Mutinerie, on respecte la manière dont chacun.e se définit en termes de genre, d'orientation sexuelle, etc. Avant de poser une question, demande-toi si elle ne risque pas d'être intrusive pour l'autre. "T'es un garçon ou une fille ?" ou "T'es de quelle origine ?" c'est comme dire "Salut, est-ce que t'as tes papiers ?"
                     </p>
                 </div>
-
                 <div className="p-4">
-                    <h2 className="text-7xl font-bold text-center">
+                    <h2 className="text-5xl font-bold text-center sm:text-xl text-red-500">
                         Consentement
                     </h2>
                     <p className="text-lg">
-                        Il arrive trop souvent qu'on (meufs/gouines/personnes trans/pédés) se fasse draguer de façon reloue et non consentie dans la vie de tout les jours.
-                        <br></br>
+                        Il arrive trop souvent qu'on (meufs/gouines/personnes trans/pédés) se fasse draguer de façon reloue et non consentie dans la vie de tous les jours.
+                        <br />
                         A la Mutinerie, c'est la personne qui se fait draguer qui décide si c'est relou. Sois attentif.ve à la manière de réagir de la personne quand tu la dragues.
                     </p>
                 </div>

@@ -15,6 +15,7 @@ export default function Infos() {
                         <li><Link href='/programme'>Programme</Link></li>
                         <li><Link href='/carte'>La Carte</Link></li>
                         <li><Link href='/contact'>Contact</Link></li>
+                        <li><Link href='/soutien'>Nous soutenir</Link></li>
                     </ul>
                 </div>
             </div>
@@ -25,6 +26,7 @@ export default function Infos() {
                     <li><Link href='/programme'>Programme</Link></li>
                     <li><Link href='/carte'>La Carte</Link></li>
                     <li><Link href='/contact'>Contact</Link></li>
+                    <li><Link href='/soutien'>Nous soutenir</Link></li>
                 </ul>
             </div>
             <div className="navbar-end">
